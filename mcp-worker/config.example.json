@@ -1,0 +1,17 @@
+{
+  "host": "0.0.0.0",
+  "port": 8788,
+  "allowed_paths": ["~"],
+  "protected_paths": ["~/.ssh", "~/.gnupg", "~/.config/mcp-bearer.token"],
+  "allowlist_commands": [
+    "ls", "pwd", "df", "du", "cat", "head", "tail", "wc",
+    "date", "uname", "whoami", "id", "hostname",
+    "free", "uptime", "stat", "file", "sha256sum", "md5sum",
+    "rm", "mv", "cp", "mkdir", "rmdir", "touch", "chmod",
+    "ln", "find", "grep", "tree", "realpath", "basename", "dirname"
+  ],
+  "network_allow_hosts": [],
+  "max_read_bytes": 262144,
+  "max_write_bytes": 5242880,
+  "max_download_bytes": 52428800
+}
