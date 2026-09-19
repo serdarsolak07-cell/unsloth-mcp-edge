@@ -1,0 +1,10 @@
+{
+  "unsloth_base_url": "http://127.0.0.1:8888/v1",
+  "unsloth_api_key_env": "UNSLOTH_STUDIO_AUTH_TOKEN",
+  "unsloth_model": "",
+  "worker_url": "http://REPLACE_LAPTOP_TAILSCALE_IP:8788/mcp",
+  "worker_health_url": "http://REPLACE_LAPTOP_TAILSCALE_IP:8788/health",
+  "bearer_token_env": "MCP_BEARER_TOKEN",
+  "max_tool_rounds": 8,
+  "request_timeout_sec": 120
+}

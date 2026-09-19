@@ -1,0 +1,8 @@
+EV — mcp-host
+
+1. cd mcp-host && chmod +x install_host.sh && ./install_host.sh
+2. unsloth studio -H 0.0.0.0 -p 8888
+3. export UNSLOTH_STUDIO_AUTH_TOKEN='sk-unsloth-...'
+4. config.json laptop Tailscale IP
+5. ~/.config/mcp-bearer.token laptopa kopyala
+6. ~/.local/share/mcp-host/venv/bin/python main_host.py --once "ev dizinini listele"
