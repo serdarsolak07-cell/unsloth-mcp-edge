@@ -8,15 +8,10 @@
     "date", "uname", "whoami", "id", "hostname",
     "free", "uptime", "stat", "file", "sha256sum", "md5sum",
     "rm", "mv", "cp", "mkdir", "rmdir", "touch", "chmod",
-    "ln", "find", "grep", "tree", "realpath", "basename", "dirname",
-    "git", "python", "python3", "pytest", "node", "npm", "npx",
-    "make", "cargo", "rustc", "which"
+    "ln", "find", "grep", "tree", "realpath", "basename", "dirname"
   ],
   "network_allow_hosts": [],
   "max_read_bytes": 262144,
   "max_write_bytes": 5242880,
-  "max_download_bytes": 52428800,
-  "command_timeout_sec": 120,
-  "max_command_output_bytes": 65536,
-  "command_working_directory": "~"
+  "max_download_bytes": 52428800
 }

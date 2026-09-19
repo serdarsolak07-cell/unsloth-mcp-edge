@@ -2,10 +2,8 @@ LAPTOP — mcp-worker
 
 1. Evdeki ~/.config/mcp-bearer.token ayni yola
 2. chmod +x install_worker.sh && ./install_worker.sh
-3. Token ile /health endpoint'ine HTTP authorization header gönder
+3. curl http://127.0.0.1:8788/health
 4. tailscale ip -4 eve yaz
 
 Alan: ev dizini (~)
 Korunan: ~/.ssh ~/.gnupg token
-
-Health isteğinde yetkilendirme başlığı zorunludur.
